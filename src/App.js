@@ -1,18 +1,14 @@
 // import logo from './logo.svg';
-import React, { Fragment } from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
+import Say from './Say';
+import EventPractice from './EventPractice';
+import ValidationSample from '../ValidationSample'
 
-function App() {
-  const name = 'React'
-  // const style = {
-  //   backgroundColor:'black',
-  //   color:'aqua',
-  //   fontSize:'48px',
-  //   fontWeight:'bold',
-  //   padding:16
-  // };
-
-  return <div className='react'>{name}</div>
-}
+const App = ()=> {
+  return <ValidationSample />
+};
 
 export default App;
