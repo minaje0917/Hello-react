@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-class validationSample extends Component{
+class ValidationSample extends Component{
     state={
         password:' ',
         clicked:false,
