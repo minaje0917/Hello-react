@@ -1,3 +1,3 @@
 # React
 
-React 입문기
+iOS 개발자의 React 입문기
